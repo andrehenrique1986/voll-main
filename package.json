@@ -16,7 +16,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "recharts": "^2.12.1",
+    "recharts": "^2.4.3",
     "styled-components": "^5.3.6",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
@@ -26,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "api": "son-server --watch -p 8080 db.json"
+    "api": "json-server --watch -p 8080 db.json"
   },
   "eslintConfig": {
     "extends": [
@@ -47,7 +47,6 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.26",
-    "json-server": "^1.0.0-alpha.23"
+    "@types/styled-components": "^5.1.26"
   }
 }
